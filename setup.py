@@ -15,7 +15,7 @@ def get_requirements(file_path:str)->List[str]:
             requirements.remove(HYPEN_E_DOT)
     
     return ( requirements
-            print(requirements)
+            
     )
 
 setup(
