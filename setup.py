@@ -19,11 +19,11 @@ def get_requirements(file_path:str)->List[str]:
     )
 
 setup(
-name='mlproject',
+name='Credit risk Analyzer',
 version='0.0.1',
-author='Krish',
-author_email='krishnaik06@gmail.com',
+author='Govind chandra Mohanty',
+author_email='govindmohanty4@gmail.com',
 packages=find_packages(),
-install_requires=get_requirements('requirements.txt')
+install_requires=get_requirements('Requirement.txt')
 
 )
